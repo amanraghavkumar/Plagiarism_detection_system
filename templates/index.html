@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Plagiarism Checker</h1>
+    <form id="plagiarismForm">
+        <textarea id="inputText" name="text" placeholder="Enter text here..."></textarea>
+        <input type="file" name="pdf">
+        <button type="submit">Check Plagiarism</button>
+    </form>
+    
+    <h2 id="plagiarismScore">Plagiarism Score: --%</h2>
+    <h3 id="aiGenerated">AI-Generated: --</h3>
+    <h3 id="onlinePlagiarism">Online Plagiarism: --%</h3>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

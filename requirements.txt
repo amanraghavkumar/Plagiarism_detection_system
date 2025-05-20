@@ -1,0 +1,13 @@
+flask  
+werkzeug  
+pymupdf  
+scikit-learn  
+nltk  
+requests  
+beautifulsoup4  
+PyPDF2
+sentence-transformers
+transformers
+torch
+numpy
+

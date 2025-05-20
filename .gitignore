@@ -1,0 +1,67 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+.penv
+penv/
+.pnv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Database / temporary files
+*.sqlite3
+*.db
+*.tmp
+
+# Compiled source #
+*.class
+*.o
+*.so
+
+# Node modules (if using frontend tools)
+node_modules/
+
+# Build / dist folders
+build/
+dist/
+*.egg-info/
+
+# Favicon and static builds (optional if generated dynamically)
+*.ico
+
+# Test and coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local configuration files
+*.local
+*.bak
+*.swp
